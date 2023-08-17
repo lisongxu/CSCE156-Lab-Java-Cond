@@ -11,7 +11,7 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Lab Objectives & Topics
 Following the lab, you should be able to:
-* use operators, such as `+`, `-`, '*`, and '/'
+* use operators, such as `+`, `-`, `*`, and `/`
 * use `if-else` statements to control the logical flow of the
   program.
 
