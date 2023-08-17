@@ -37,108 +37,14 @@ were both drivers last week) within your pair.  Ask the lab
 instructor to resolve issues only when you cannot come to a 
 consensus.  
 
-Because of the peer programming setup of labs, it is absolutely 
-essential that you complete any pre-lab activities (if any) and familiarize
-yourself with the handouts (if any) prior to coming to lab.  Failure to do
-so will negatively impact your ability to collaborate and work with 
-others which may mean that you will not be able to complete the
-lab.  
-
 ***note that, each student must submit the code to CodePost for grading.***
 
 ## 1. Getting Started
 
-#### 1.1. Install Java Developer Kit  
+Clone this project code for this lab from GitHub in Eclipse using the
+URL: https://github.com/lisongxu/CSCE156-Lab-Java-Cond. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
+instructions on how to clone a project from GitHub.
 
-You may already have "Java" installed on your computer, but this
-is most likely the Java Virtual Machine (JVM) that allows you to
-run Java programs.  To actually develop Java programs you need a
-Java Development Kit (JDK).  There are several alternative JDKs
-and you are welcome to explore them, but for this course, we are
-recommending Oracle's JDK available for download at the following
-URL.  Follow the instructions for downloading and installing.
-
-https://www.oracle.com/java/technologies/javase-downloads.html
-
-#### 1.2. Install Eclipse
-
-Eclipse is an Integrated Development Environment (IDE) for 
-Java development.  There are many other popular IDEs available 
-and you are welcome (and encouraged) to try them out and use 
-them if you wish.  However, for this course, most instructions
-will assume the use of Eclipse and it is the IDE we will 
-primarily use for this course.  You can download and install
-Eclipse at the following URL.
-
-https://www.eclipse.org/
-
-***IMPORTANT*** When you run the installer be sure to select and
-install the **Eclipse IDE for Enterprise and Web Developers** and
-*not* the one just for Java Developers.  We'll use some of the 
-features of this version in future labs.
-
-## 2. Checking Out Code From Github Using Eclipse
-
-Each lab will have some starter code and other *artifacts* 
-(data files, scripts, etc.) that will be provided for to you.  
-The code is hosted on Github (https://github.com) and you must 
-*clone* your own copy to work with it.  You will not need to 
-know the details of using git nor be a registered Github user 
-to get access to the code necessary for your labs.  However, 
-you are *highly encouraged* to learn this essential tool.  
-You may find it very useful to keep track of your own code 
-and to share code if you work in pairs or groups.  
-
-To check out the code for this lab, do the following.  You may 
-want to reference this step-by-step process in subsequent labs.
-
-1. First we need a Git *perspective* (a context in the Eclipse 
-User Interface that will allow us to work with Git).  To open 
-the Git perspective, click on the "Open Perspective" tab in the 
-upper right (the screenshot may be different from the latest Eclipse):  
-<p align="center">
-<img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="30%"/>
-</p>  
-
-2. Select "Git" from the menu and click `OK`  
-
-3. Click the "Clone a Git repository" in the Git Repositories 
-navigation menu:
-<p align="center">
-<img src="images/eclipseGitRepoMarkUp-Xu.png" alt="Clone a Git repository" width="50%"/>
-</p>  
-
-4. Select "Clone URI" and click `Next`
-<p align="center">
-<img src="images/eclipseCloneURI-Xu.png" alt="Clone URI" width="50%"/>
-</p>  
-
-
-5. Copy/paste or type into the URI field, the URL: 
-https://github.com/lisongxu/CSCE156-Lab-Java-Intro
-<p align="center">
-<img src="images/eclipseCloneDialogAMarkUp-Xu.png" alt="URL" width="50%"/>
-</p>
-
-6. Click `Next`; once Eclipse has grabbed the project, the 
-"master" branch should be selected (checkbox); click `Next` 
-again.  
-<p align="center">
-<img src="images/eclipseCloneDialogBMarkUp-Xu.png" alt="URL" width="50%"/>
-</p>
-
-7. Select the directory where you want your project to be saved.  
-Caution: the default option may not correspond to your default 
-workspace.  You will want to change it to your workspace.  Mark 
-the "Import all existing projects after clone finishes" checkbox 
-option or you will need to manually import the cloned project 
-into Eclipse.  
-<p align="center">
-<img src="images/eclipseCloneDialogCMarkUp-Xu.png" alt="URL" width="50%"/>
-</p>
-
-8. Switch back to your Java or JavaEE perspective and you can 
-see your cloned project.  
 
 ## 3. Running Java Programs
 
@@ -201,62 +107,6 @@ Then select "Run Configurations".  This brings up a dialog box with
 which you can run custom configurations.  Click the Arguments tab and 
 enter a space-delimited list of numbers under "Program Arguments"
 and click "Run".
-
-## 4. IDE Orientation
-
-In the next activities you'll get more familiar with using Eclipse and the
-convenient functionality IDEs provide.  
-
-### 4.1 Using External Libraries
-
-No man is an island.  Good code depends on selecting and (re)using 
-standard libraries whenever possible so that you are not continually 
-reinventing the wheel.  This activity will familiarize you with how 
-to import and use an external Java library.  Java libraries are 
-usually packaged into JAR *J*ava *AR*chive files which contain a 
-collection of compiled class files and other resources necessary 
-to use the library.
-
-1. You'll notice that there are compilation errors in the `Birthday.java` 
-file.  This is because this class uses other classes that are not 
-available in the standard Java Development Kit (JDK).  It instead 
-uses classes from the Joda-Time library; a library of useful classes 
-and utilities for dealing with dates, times, intervals, durations, etc.
-2. The JAR file, `joda-time-2.0.jar` has been included in the project 
-in the `lib` folder.  External libraries are usually kept in a hierarchy 
-of folders like this (you can create your own folders by right-clicking 
-the project and selecting "New" then "Folder")
-3. Right-click the JAR file and select "Build Path" then "Add to Build 
-Path."  The library is now included in your project and the compiler 
-errors should go away.
-
-### 4.2 Cleaning Up
-
-Though the syntax errors should now be resolved, the code isn't pretty
-making it difficult to read and understand.  Eclipse provides a built-in
-code formatter functionality.  Typically if you write good code to begin
-with it will automatically provide consistent indentation and other 
-stylistic features.  It is best practice to get in the habit of writing 
-good, clean code automatically.  However, if you need to clean up a file 
-in one shot you can do use the auto-formatter feature.  
-
-* On Windows: press `control-shift-f` to reformat the code
-* On Mac: press `shift-command-f` to reformat the code
-
-Another issue with the code is that it is using `lower_underscore_casing` 
-for some of its variables.  Change the variable names to the preferred 
-`lowerCamelCasing` convention in Java.  You could do this manually but 
-a neat trick that most IDEs provide is as follows.
-
-1. Highlight the variable name (any instance will do)
-2. Right click and select `Refactor` then `Rename`
-3. Type the new variable name and hit enter and it will automatically 
-be changed for all instances!  
-
-### 4.3 Editing and Running the Program
-
-For the variables, name, month, date, and year, enter your own 
-information (your name and your birthday). Run the program and check whether the output is correct.
 
 
 ## 5. Testing and Submitting Your Lab
