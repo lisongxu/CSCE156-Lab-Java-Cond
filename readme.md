@@ -1,10 +1,9 @@
 # Computer Science II
 ## Lab 2.0 - Operators and Conditions
 
-An introduction to the Java programming language and tools 
-including Eclipse, Eclipse Git client, etc.  
+An introduction to the operators and conditions in the Java programming language.  
 
-This is a lab used in Computer Science II (CSCE 156, CSCE 156H) 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://unl.edu).
 
@@ -12,13 +11,9 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Lab Objectives & Topics
 Following the lab, you should be able to:
-* Receive and activate your CSE account and log into the network 
-  using a Windows machine and your CSE account.
-* Clone projects from GitHub using Eclipse
-* Open, compile, and execute a given Java program in Eclipse.
-* Write a simple program in the Eclipse IDE, compile, and 
-  execute that program.
-
+* use operators, such as `+`, `-`, '*`, and '/'
+* use `if-else` statements to control the logical flow of the
+  program.
 
 ### Peer Programming Pair-Up
 
@@ -49,18 +44,11 @@ so will negatively impact your ability to collaborate and work with
 others which may mean that you will not be able to complete the
 lab.  
 
+***note that, each student must submit the code to CodePost for grading.***
+
 ## 1. Getting Started
 
-### 1.1. Setup
-
-#### 1.1.1. Claim your CSE Account  
-
-If you do not yet have your CSE credentials, you can claim them
-at the following URL: https://cse-apps.unl.edu/amu/claim 
-If you already have a CSE account but do not remember your 
-password you can reset it at the same URL. 
-
-#### 1.1.2. Install Java Developer Kit  
+#### 1.1. Install Java Developer Kit  
 
 You may already have "Java" installed on your computer, but this
 is most likely the Java Virtual Machine (JVM) that allows you to
@@ -72,7 +60,7 @@ URL.  Follow the instructions for downloading and installing.
 
 https://www.oracle.com/java/technologies/javase-downloads.html
 
-#### 1.1.3. Install Eclipse
+#### 1.2. Install Eclipse
 
 Eclipse is an Integrated Development Environment (IDE) for 
 Java development.  There are many other popular IDEs available 
@@ -85,7 +73,7 @@ Eclipse at the following URL.
 https://www.eclipse.org/
 
 ***IMPORTANT*** When you run the installer be sure to select and
-install the **Eclipse IDE for Enterprise Java Developers** and
+install the **Eclipse IDE for Enterprise and Web Developers** and
 *not* the one just for Java Developers.  We'll use some of the 
 features of this version in future labs.
 
@@ -107,9 +95,9 @@ want to reference this step-by-step process in subsequent labs.
 1. First we need a Git *perspective* (a context in the Eclipse 
 User Interface that will allow us to work with Git).  To open 
 the Git perspective, click on the "Open Perspective" tab in the 
-upper right:  
+upper right (the screenshot may be different from the latest Eclipse):  
 <p align="center">
-<img src="images/eclipseOpenPerspectiveMarkUp.png" alt="Open Perspective" width="50%"/>
+<img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="30%"/>
 </p>  
 
 2. Select "Git" from the menu and click `OK`  
@@ -117,50 +105,54 @@ upper right:
 3. Click the "Clone a Git repository" in the Git Repositories 
 navigation menu:
 <p align="center">
-<img src="images/eclipseGitRepoMarkUp.png" alt="Clone a Git repository" width="50%"/>
+<img src="images/eclipseGitRepoMarkUp-Xu.png" alt="Clone a Git repository" width="50%"/>
 </p>  
 
-4. Copy/paste or type into the URI field, the URL: 
-   https://github.com/cbourke/CSCE156-Lab01  
+4. Select "Clone URI" and click `Next`
 <p align="center">
-<img src="images/eclipseCloneDialogAMarkUp.png" alt="URL" width="50%"/>
+<img src="images/eclipseCloneURI-Xu.png" alt="Clone URI" width="50%"/>
+</p>  
+
+
+5. Copy/paste or type into the URI field, the URL: 
+https://github.com/lisongxu/CSCE156-Lab-Java-Intro
+<p align="center">
+<img src="images/eclipseCloneDialogAMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
 
-5. Click `Next`; once Eclipse has grabbed the project, the 
+6. Click `Next`; once Eclipse has grabbed the project, the 
 "master" branch should be selected (checkbox); click `Next` 
 again.  
 <p align="center">
-<img src="images/eclipseCloneDialogBMarkUp.png" alt="URL" width="50%"/>
+<img src="images/eclipseCloneDialogBMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
 
-6. Select the directory where you want your project to be saved.  
+7. Select the directory where you want your project to be saved.  
 Caution: the default option may not correspond to your default 
 workspace.  You will want to change it to your workspace.  Mark 
 the "Import all existing projects after clone finishes" checkbox 
 option or you will need to manually import the cloned project 
 into Eclipse.  
 <p align="center">
-<img src="images/eclipseCloneDialogCMarkUp.png" alt="URL" width="50%"/>
+<img src="images/eclipseCloneDialogCMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
 
-7. Switch back to your Java or JavaEE perspective and you can 
+8. Switch back to your Java or JavaEE perspective and you can 
 see your cloned project.  
 
-# Java
+## 3. Running Java Programs
 
 All students should complete this Java section, even if you are 
 already familiar with Java, in order to familiarize yourself 
-with how labs will work for the semester.  Only those
+with how labs will work for the semester.
 
-## 3.1 Running & Editing Programs
+### 3.1. Running a Program
 
-### 3.1.1 Running a Program
-
-We will now familiarize you with Eclipse by editing an existing
+We will now familiarize you with Eclipse by running an existing
 project's code.
 
 1. Expand the `src` directory.  Under this we have a *package* named 
-`unl.cse`.  Java classes are organized in a hierarchy of packages.
+`unl.soc`.  Java classes are organized in a hierarchy of packages.
 Packages correspond to actual directories in your file system.  
 
 2. Expand the package and you'll find several *classes*.	All Java code 
@@ -175,25 +167,15 @@ Classes without a `main` method can be used by other classes, but
 they cannot be run by themselves as an entry point for the Java 
 Virtual Machine (JVM).
 
-4. Click on the "play" button as highlighted (click "Proceed" if prompted):
+4. Click on the "play" button as highlighted. Note that please click "Proceed" in the "Errors in Workspace" window that will be fixed in the next step. 
 <p align="center">
-<img src="images/eclipseScreen.png" alt="Eclipse Screen" width="50%"/>
+<img src="images/eclipseScreen-Xu.png" alt="Eclipse Screen" width="70%"/>
 </p>
 5. The output for this program will appear in the "console" tab at the bottom.
 6. Click on the console tab and enter the input as specified.
 
-### 3.1.2 Completing the Statistics Program
 
-Though the program runs, it does not output correct answers.  You 
-will need to modify these classes to complete the program.
-
-1. Implement the `getMax()` method in the `Statistics` class.  Use the 
-`getMin()`	method for directions on syntax.
-2. Implement the `getSum()` method in the `Statistics` class.  Use the 
-other methods for direction on syntax.
-3. Rerun the program to verify that it now works.
-
-### 3.1.3 Modifying the Statistics Program
+### 3.2. Modifying the Program
 
 The program you've completed is interactive in that it prompts the 
 user for input.  You will now change the program to instead use *command 
@@ -271,30 +253,13 @@ a neat trick that most IDEs provide is as follows.
 3. Type the new variable name and hit enter and it will automatically 
 be changed for all instances!  
 
-Finally, every *non-trivial* class and method should have documentation.
-In Java, it is standard to use doc-style or "javadoc" comments.  Look
-at the `Statistics.java` file again to see the format for these style of comments.
-Add documentation to this file to complete it.
+### 4.3 Editing and Running the Program
 
-### 4.3 Finishing The Program
+For the variables, name, month, date, and year, enter your own 
+information (your name and your birthday). Run the program and check whether the output is correct.
 
-Though the program should have no syntax errors, if you run it, no 
-output will be displayed.  You need to complete the program as follows.
 
-1. For the variables, name, month, date, and year, enter your own 
-information (your name and your birthday)
-2. Add appropriate code (using `System.out.println()`) which prints 
-to the standard output a full line) a greeting similar to the following. 
-`Greetings, NAME.  Today you are XX years, XX months, and XX days old.`
-Of course, the placeholders should be replaced with variable values.  
-In Java, variable values can be concatenated with strings using the `+` 
-(plus) operator.
-3. Add a conditional statement that, if today is the user's birthday 
-will output `Happy Birthday`.  If it is not the user's birthday, output 
-`Your friends have XX shopping days until your next birthday`
-again with an appropriate variable value.
-
-## 5. Testing, Submitting, & Grading your lab
+## 5. Testing and Submitting Your Lab
 
 ### 5.1 Testing
 
@@ -312,42 +277,71 @@ the file is complete.
 will be presented in a JUnit tab detailing which test cases pass and
 which fail along with expected output and the actual output (for 
 failed test cases).  
-3. Address any issues or failing tests by debugging your code and 
-rerun the test suite until all tests pass.
 
 ### 5.2 Submitting
 
-Many of your assignments will include a programming portion that will 
-require you to hand in *soft-copy* source files for graders to 
-compile and evaluate.  To do this, you will use a web-based handin 
-program.  After handing your file(s) in, you can then grade them by 
-using the web grader.  To demonstrate, do the following.
+Nearly all of your labs and projects will require you to hand in source files
+for graders to compile and evaluate.  To do this, we use a web-based
+assessment app called codepost.io (<https://codepost.io>).  
 
-1. Open a browser to https://cse-apps.unl.edu/handin
-2. Login with your **CSE credentials**
-3. Click on Lab 1.0 and hand in the `Statistics.java` source file.  
-You can either click the large 
-"handin" area and select the file or you can drag-drop the files.  You 
-will be able to re-handin the same file as many times as you want up 
-until the due date.
+You should have received an invitation to this website from your
+instructor through your email account (typically your `@huskers.unl.edu`
+email or whatever email you have associated with on Canvas).  If
+you have access, great.  If not, go to <https://codepost.io/forgot-password>
+and "reset" your password (even if you never initially set one).  Be
+sure to use your huskers email or whatever primary email is associated
+with your canvas profile.
 
-### 5.3 Grading
+To handin and grade your lab, do the following.
 
-Now that the file has been handed in, you can "grade" yourself 
-by using the webgrader
+1. Login to <https://codepost.io>.  It should immediately take you to the
+   assignment submission page:
+<p align="center">
+<img src="images/codepost01-assignments-Xu.png" alt="Codepost.io Assignments" width="50%"/>
+</p>
 
-1. Open a new tab/window and point your browser 
-to https://cse.unl.edu/~cse156/grade (depending on your section, this 
-URL may be different).
-2. Fill the form with your CSE login and password, select the 
-appropriate assignment and click "Grade"
-3. Observe the expected output and compare it to your output to be
-sure that your program is correct.  
+2. Click "Upload Assignment" which will bring up a dialog box.
+<p align="center">
+<img src="images/codepost02-submission-Xu.png" alt="Codepost.io Submission" width="50%"/>
+</p>
 
-For labs, the grader script simply runs the provided JUnit test
-suite, but it *may* run additional or modified tests.  In any case,
-be sure your code compiles, runs and **passes all test**s in the
-webgrader.  Address any issues and resubmit as many times as you 
-like up to the due date.  Only labs that pass all tests will be
-given credit.
+3. Click "Upload files" to upload the following two required files located in your Eclipse workspace. Then click the "Submit and run test" button.
+
+* `Statistics.java`: You do not need to make any changes to this file, as this lab just shows you how CodePost works.
+* `Birthday.java`: Please change variable names with underscores to the preferred lowerCamelCasing convention in Java.
+
+4. You should see something like the following:
+<p align="center">
+<img src="images/codepost04-success-Xu.png" alt="Codepost.io Success" width="50%"/>
+</p>
+
+***HOWEVER*** this does not mean that your program(s) worked, only that
+they were uploaded.  You ***still need to view the results!!!***
+
+5. Click on the "View test results" button to
+view the test results which will give you more details.  If any
+test(s) failed, you should see something like the following. You can click on the + button to see more details.  
+<p align="center">
+<img src="images/codepost07-failResults-Xu.png" alt="Codepost.io Fail View" width="60%"/>
+</p>
+
+
+If all tests passed, you should see something like this:
+<p align="center">
+<img src="images/codepost06-successResults-Xu.png" alt="Codepost.io Success View" width="60%"/>
+</p>
+
+Some things to understand about the lab grading process:
+
+ * For this lab, as long as you pass all the tests, you will get full credit for the lab.
+ * Some future labs may be manually examined by LAs to award or deduct additional points according to the specific lab requirements.
+ * If there are problems or errors with your program(s),
+   you should fix them and repeat the submission process.
+	 You can do this as many times as you like up until the due date.  
+ * In any case, it is **your responsibility to read, understand
+   and *address* any and all errors and/or warnings that CodePost
+   produces**.
+
+***Congratulations on your first lab!***
+
 
