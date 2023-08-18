@@ -29,20 +29,24 @@ last week, be a navigator next, etc.
 ## 1. Getting Started
 
 Clone this project code for this lab from GitHub in Eclipse using the
-URL: https://github.com/lisongxu/CSCE156-Lab-Java-Cond. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
-instructions on how to clone a project from GitHub.
+URL: https://github.com/lisongxu/CSCE156-Lab-Java-Cond. Please refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
+instructions on how to clone a project from GitHub in Eclipse.
 
 
 ## 2. Modifying the Statistics Java Programs
 
-We continue to work on the the Statistics Java programs. Note that the Statistics code in this lab is different from that of the previous lab, so you must clone the project code for this lab from GitHub.
+We continue to work on the Statistics Java programs. Note that the Statistics code in this lab is different from that of Lab 1, so you must clone the project code for this lab from GitHub.
 
 Please modify `Statistics.java` as required below, so that `StatisticsDemo.java` outputs the correct answers. 
 
-1. Implement the `getMax()` method in the `Statistics` class.  Use the 
+1. Expand the `src' directory, then expand the `unl.soc` package, and then double click on the `Statistics.java` file to open it.
+2. Implement the `getMax()` method in the `Statistics` class.  Use the 
 `getMin()`	method for directions on syntax.
-2. Implement the `getSum()` method in the `Statistics` class.  Use the 
+3. Implement the `getSum()` method in the `Statistics` class.  Use the 
 other methods for direction on syntax.
+4. Expand the `src' directory, expand the `unl.soc` package, double click on the `StatisticsDemo.java` file to open it.
+5. Click on the "play" button to execute `StatisticsDemo.java`, and check the output in the "console" tab
+ 
 
 ## 3. Testing and Submitting Your Lab
 
@@ -51,9 +55,11 @@ other methods for direction on syntax.
 Before you submit your lab, you should run the JUnit tests locally to verify 
 that your code is correct.  
 
-1. Open the `StatisiticsTests.java` source file in the `src/test/java`
+1. Expand the `src' directory, then expand the `unl.soc` package, and then open
+2.  
+3. Open the `StatisiticsTests.java` source file in the `src/test/java`
 source folder.  
-2. Run the test suite by clicking the usual "Play" button.  A report
+4. Run the test suite by clicking the usual "Play" button.  A report
 will be presented in a JUnit tab detailing which test cases pass and
 which fail along with expected output and the actual output (for 
 failed test cases).  
