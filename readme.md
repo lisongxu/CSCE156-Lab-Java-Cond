@@ -39,7 +39,7 @@ We continue to work on the Statistics Java programs. Note that the Statistics co
 
 Please modify `Statistics.java` as required below, so that `StatisticsDemo.java` outputs the correct answers. 
 
-1. Expand the `src' directory, then expand the `unl.soc` package, and then double click on the `Statistics.java` file to open it.
+1. Expand the `src/main/java' directory, then expand the `unl.soc` package, and then double click on the `Statistics.java` file to open it.
 2. Implement the `getMax()` method in the `Statistics` class.  Use the 
 `getMin()`	method for directions on syntax.
 3. Implement the `getSum()` method in the `Statistics` class.  Use the 
@@ -55,14 +55,11 @@ other methods for direction on syntax.
 Before you submit your lab, you should run the JUnit tests locally to verify 
 that your code is correct.  
 
-1. Expand the `src' directory, then expand the `unl.soc` package, and then open
-2.  
-3. Open the `StatisiticsTests.java` source file in the `src/test/java`
-source folder.  
-4. Run the test suite by clicking the usual "Play" button.  A report
-will be presented in a JUnit tab detailing which test cases pass and
+1. Expand the `src/test/java' directory, then expand the `unl.soc` package, and then double click on the `StatisiticsTests.java` file to open it.   
+2. Run the test suite by clicking the usual "Play" button.
+3. A report will be presented in a JUnit tab detailing which test cases pass and
 which fail along with expected output and the actual output (for 
-failed test cases).  
+failed test cases).
 
 ### 3.2 Submitting to CodePost
 
