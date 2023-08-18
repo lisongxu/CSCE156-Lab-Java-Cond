@@ -74,4 +74,7 @@ To submit your lab, do the following:
 4. Click on the "View test results" button to
 view the test results, and make sure that you pass all tests. 
 
+### 3.3 Grading
+
+For this lab, as long as you pass all the tests on Codepost, you will get full credit for the lab.
 
