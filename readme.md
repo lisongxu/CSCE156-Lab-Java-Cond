@@ -24,7 +24,7 @@ and the other the *navigator*. If you prefer to work on this lab by yourself, th
 Each week you should try to alternate: if you were a driver 
 last week, be a navigator next, etc. 
 
-***note that, each student must submit the code to CodePost for grading.***
+***Note that, each student must submit the code to CodePost for grading.***
 
 ## 1. Getting Started
 
