@@ -9,6 +9,15 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Overview
 
+### Resources
+
+Java tutorial
+* `operator tutorial`:
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
+* `if-else tutorial`:
+http://download.oracle.com/javase/tutorial/java/nutsandbolts/if.html
+
+
 ### Lab Objectives & Topics
 Following the lab, you should be able to:
 * use operators, such as `+`, `-`, `*`, and `/`
@@ -48,7 +57,7 @@ other methods for direction on syntax.
 5. Click on the "play" button to execute `StatisticsDemo.java`, and check the output in the "console" tab
  
 
-## 3. Testing and Submitting Your Lab
+## 3. Testing, Submitting and Grading
 
 ### 3.1 Testing Locally
 
