@@ -11,7 +11,6 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Resources
 
-Java tutorial
 * `operator tutorial`:
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
 * `if-else tutorial`:
