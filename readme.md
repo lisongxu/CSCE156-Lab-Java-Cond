@@ -51,7 +51,7 @@ Please modify `Statistics.java` as required below, so that `StatisticsDemo.java`
 `getMin()`	method for directions on syntax.
 3. Implement the `getSum()` method in the `Statistics` class.  Use the 
 other methods for direction on syntax.
-4. Expand the `src` directory, expand the `unl.soc` package, double click on the `StatisticsDemo.java` file to open it.
+4. Expand the `src/main/java` directory, expand the `unl.soc` package, double click on the `StatisticsDemo.java` file to open it.
 5. Click on the "play" button to execute `StatisticsDemo.java`, and check the output in the "console" tab
  
 
@@ -83,5 +83,5 @@ view the test results, and make sure that you pass all tests.
 
 ### 3.3 Grading
 
-For this lab, as long as you pass all the tests on Codepost, you will get full credit for the lab.
+For this lab, as long as you pass all the tests on Codepost, you will get full points for the lab.
 
