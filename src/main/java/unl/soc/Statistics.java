@@ -4,7 +4,7 @@ package unl.soc;
  * This is a collection of utilities to compute various statistics on arrays of
  * integers.
  * 
- * @author cbourke
+ * @author cbourke, Lisong
  *
  */
 public class Statistics {
