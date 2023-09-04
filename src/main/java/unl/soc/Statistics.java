@@ -16,8 +16,13 @@ public class Statistics {
 	 * @return
 	 */
 	public static int getSum(int array[]) {
-		// TODO: implement
-		return 0;
+		if (array == null || array.length == 0)
+			return 0;
+		int sum = 0;
+		for (int i = 0; i < array.length; i++) {
+			// TODO: implement
+		}
+		return sum;
 	}
 
 	/**
@@ -53,7 +58,12 @@ public class Statistics {
 
 	// TODO: add documentation
 	public static int getMax(int array[]) {
-		// TODO: implement
-		return 0;
+		if (array == null || array.length == 0)
+			return 0;
+		int max = array[0];
+		for (int i = 1; i < array.length; i++) {
+			// TODO: implement
+		}
+		return max;
 	}
 }
