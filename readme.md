@@ -38,7 +38,7 @@ last week, be a navigator next, etc.
 ## 1. Getting Started
 
 Clone this project code for this lab from GitHub in Eclipse using the
-URL: https://github.com/lisongxu/CSCE156-Lab-Java-Cond. Please refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
+URL: `https://github.com/lisongxu/CSCE156-Lab-Java-Cond`. Please refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
 instructions on how to clone a project from GitHub in Eclipse.
 
 
