@@ -76,7 +76,7 @@ To submit your lab, do the following.
 
 1. Go to Lab 2 on Canvas, and click the "Load Lab 2 in a new window" button which opens a GradeScope window for Lab 2.   
 
-2. Drag and Drop your modified `Statistics.java`, and then click the "Upload" button.
+2. Drag and Drop your modified `Statistics.java`, and then click the "Upload" button. Do not upload any other files.
 
 3. Wait for the website to grade your code, and make sure that you pass all tests. 
 
