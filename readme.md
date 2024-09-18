@@ -80,6 +80,8 @@ To submit your lab, do the following.
 
 3. Wait for the website to grade your code, and make sure that you pass all tests. 
 
+4. What if the test on GradeScope fails? Please test your program locally on your computer using the provided JUnit test suite, because the test on GradeScope is exactly the same as the provided JUnit test suite. Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.
+
 ### 3.3 Grading
 
 For this lab, as long as you pass all the tests on GradeScope, you will get full points for the lab.
