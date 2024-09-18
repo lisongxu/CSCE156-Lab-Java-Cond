@@ -76,11 +76,11 @@ To submit your lab, do the following.
 
 1. Go to Lab 2 on Canvas, and click the "Load Lab 2 in a new window" button which opens a GradeScope window for Lab 2.   
 
-2. Drag and Drop your modified `Statistics.java`, and then click the "Upload" button. Do not upload any other files.
+2. Drag and Drop your modified ***`Statistics.java`***, and then click the "Upload" button. ***Do not upload any other files.***
 
 3. Wait for the website to grade your code, and make sure that you pass all tests. 
 
-4. What if the test on GradeScope fails? Please test your program locally on your computer using the provided JUnit test suite, because the test on GradeScope is exactly the same as the provided JUnit test suite. Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.
+4. What if the test on GradeScope fails? Please test your program locally on your computer using the provided JUnit test suite, because the test on GradeScope is exactly the same as the provided JUnit test suite. ***Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.***
 
 ### 3.3 Grading
 
