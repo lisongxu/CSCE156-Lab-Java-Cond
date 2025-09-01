@@ -3,7 +3,7 @@
 
 An introduction to the operators and conditions in the Java programming language.  
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2024 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2025 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -27,11 +27,7 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
 
 ### Peer Programming Pair-Up
 
-At the start of
-each lab, you may find a team member by yourself or be randomly paired up with another student by
-a lab instructor.  One of you will be designated the *driver* 
-and the other is the *navigator*. Each week you should try to alternate: if you were a driver 
-last week, be a navigator next, etc. If you prefer to work on this lab by yourself, that is fine too.
+At the start of each lab, you may find a team member by yourself.  One of you will be designated the *driver* and the other is the *navigator*. Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. If you prefer to work on this lab alone, that is fine too.
 
 ***Note that each student must submit the code to GradeScope for grading.***
 
@@ -74,7 +70,7 @@ failed test cases).
 
 To submit your lab, do the following. 
 
-1. Go to Lab 2 on Canvas, and click the "Load Lab 2 in a new window" button which opens a GradeScope window for Lab 2.   
+1. Go to Lab 2 on Canvas, and click the "Load Lab 2 in a new window" button, which opens a GradeScope window for Lab 2.   
 
 2. Drag and Drop your modified ***`Statistics.java`***, and then click the "Upload" button. ***Do not upload any other files.***
 
