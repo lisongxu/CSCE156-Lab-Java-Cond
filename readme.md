@@ -14,7 +14,7 @@ at the [University of Nebraska-Lincoln](https://www.unl.edu).
 * `operator tutorial`:
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
 * `if-else tutorial`:
-http://download.oracle.com/javase/tutorial/java/nutsandbolts/if.html
+http://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html
 
 
 ### Lab Objectives & Topics
