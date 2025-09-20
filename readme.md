@@ -1,5 +1,5 @@
 # Computer Science II
-## Lab 2.0 - Operators and Conditions
+## Lab 2 - Operators and Conditions
 
 An introduction to the operators and conditions in the Java programming language.  
 
